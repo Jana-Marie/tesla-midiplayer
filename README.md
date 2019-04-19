@@ -14,4 +14,4 @@ Afterwards a Midi file can be played with:
 
 ##### dependencies
 
-`midish, aplaymidi`
+`midish aplaymidi`
