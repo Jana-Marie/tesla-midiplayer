@@ -1,4 +1,5 @@
 #!/bin/bash
+#generates a midishrc depending on the number of connected tesla coils and the output of analyze.sh
 
 DEVS=$(find /dev/ | grep -w "midi[1-9]" | awk -F" " '{print $1}' | sort)
 DEVCNT=0
