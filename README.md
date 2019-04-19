@@ -11,3 +11,7 @@ Afterwards a Midi file can be played with:
 
 `./run <midi>`
 
+
+##### dependencies
+
+`midish aplaymidi`
