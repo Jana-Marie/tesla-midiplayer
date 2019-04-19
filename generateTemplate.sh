@@ -12,7 +12,7 @@ done
 echo "fnew otterfilter"
 
 let NUMBEROFCOILS=(DEVCNT-1)*2
-NUM=$(head -n $NUMBEROFCOILS | sed 's/.*[ ]//')
+NUM=$(head -n $NUMBEROFCOILS | sed 's/.*[ ]//' | sort -R)
 DEVCNT=1
 CHCNT=0
 for c in $NUM;
